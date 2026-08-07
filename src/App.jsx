@@ -1,19 +1,30 @@
 import "./App.css";
-
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
+import StudentCard from "./components/StudentCard";
 
 function App() {
-
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Footer />
+      <h1 className="heading">React Props Example</h1>
+
+      <StudentCard
+        name="Asma Khan"
+        age={20}
+        course="React.js"
+      />
+
+      <StudentCard
+        name="Ali Khan"
+        age={22}
+        course="JavaScript"
+      />
+
+      <StudentCard
+        name="Ayesha"
+        age={19}
+        course="HTML & CSS"
+      />
     </>
   );
-
 }
 
 export default App;
