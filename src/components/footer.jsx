@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>📞 Contact: 0300-1234567</p>
+      <p>© 2026 Asma Khan | React Project</p>
     </footer>
   );
 }
