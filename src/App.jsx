@@ -1,8 +1,9 @@
+
 import "./App.css";
-import ProductSearch from "./components/ProductSearch";
+import LikeApp from "./components/LikeApp";
 
 function App() {
-  return <ProductSearch />;
+  return <LikeApp />;
 }
 
 export default App;

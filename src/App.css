@@ -164,3 +164,20 @@ body {
   background: #f4f4f4;
   border-radius: 8px;
 }
+.like-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 35px;
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.like-container h2 {
+  margin: 25px 0;
+}
+
+.like-container button {
+  padding: 12px 25px;
+}
