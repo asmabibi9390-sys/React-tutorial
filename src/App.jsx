@@ -1,8 +1,8 @@
 import "./App.css";
-import CurrencyConverter from "./components/CurrencyConverter";
+import Users from "./components/Users";
 
 function App() {
-  return <CurrencyConverter />;
+  return <Users />;
 }
 
 export default App;
