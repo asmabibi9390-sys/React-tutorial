@@ -1,9 +1,8 @@
-
 import "./App.css";
-import LikeApp from "./components/LikeApp";
+import StudentForm from "./components/StudentForm";
 
 function App() {
-  return <LikeApp />;
+  return <StudentForm />;
 }
 
 export default App;
