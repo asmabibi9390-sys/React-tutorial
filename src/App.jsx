@@ -1,8 +1,8 @@
 import "./App.css";
-import FocusInput from "./components/FocusInput";
+import ToggleApp from "./components/ToggleApp";
 
 function App() {
-  return <FocusInput />;
+  return <ToggleApp />;
 }
 
 export default App;

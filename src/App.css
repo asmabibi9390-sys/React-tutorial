@@ -120,3 +120,17 @@ body {
   display: block;
   margin: auto;
 }
+.toggle-container {
+  width: 450px;
+  max-width: 90%;
+  margin: 100px auto;
+  padding: 35px;
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.toggle-container button {
+  margin: 20px 0;
+}
