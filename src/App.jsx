@@ -1,12 +1,8 @@
 import "./App.css";
-import BackgroundChanger from "./components/BackgroundChanger";
+import CurrencyConverter from "./components/CurrencyConverter";
 
 function App() {
-  return (
-    <>
-      <BackgroundChanger />
-    </>
-  );
+  return <CurrencyConverter />;
 }
 
 export default App;
