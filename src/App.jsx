@@ -1,11 +1,10 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import PasswordGenerator from "./components/PasswordGenerator";
 
 function App() {
   return (
     <>
-      <h1>React Counter App</h1>
-      <Counter />
+      <PasswordGenerator />
     </>
   );
 }

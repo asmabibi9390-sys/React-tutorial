@@ -57,6 +57,10 @@ footer{
   border-radius: 15px;
   margin: 20px 0;
 }
+body {
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
 
 h2 {
   color: #333;
@@ -88,11 +92,6 @@ p {
 .btn:hover {
   background: #444;
 }
-body {
-  background: #f5f5f5;
-  font-family: Arial, sans-serif;
-  text-align: center;
-}
 
 .heading {
   margin: 30px;
@@ -105,4 +104,52 @@ body {
   background: white;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.background-changer {
+  min-height: 100vh;
+  padding-top: 100px;
+  text-align: center;
+  transition: background-color 0.4s ease;
+}
+
+.background-changer h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.background-changer p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.color-buttons button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.color-buttons button:hover {
+  background: #444;
 }
