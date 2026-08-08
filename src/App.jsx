@@ -1,8 +1,8 @@
 import "./App.css";
-import ToggleApp from "./components/ToggleApp";
+import ProductSearch from "./components/ProductSearch";
 
 function App() {
-  return <ToggleApp />;
+  return <ProductSearch />;
 }
 
 export default App;
